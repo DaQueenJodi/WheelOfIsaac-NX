@@ -52,7 +52,7 @@ main.o: \
  /opt/devkitpro/portlibs/switch/include/SDL2/SDL.h \
  /opt/devkitpro/portlibs/switch/include/SDL2/SDL_mixer.h \
  /opt/devkitpro/portlibs/switch/include/SDL2/SDL_ttf.h \
- /hdd/sysmlinks/Documents/Projects/Cpp/WheelOfIsaac-NX/include/Constants.hpp \
+ /hdd/sysmlinks/Documents/Projects/Cpp/WheelOfIsaac-NX/include/Global.hpp \
  /hdd/sysmlinks/Documents/Projects/Cpp/WheelOfIsaac-NX/include/Wheel.hpp
 /opt/devkitpro/portlibs/switch/include/SDL2/SDL.h:
 /opt/devkitpro/portlibs/switch/include/SDL2/SDL_main.h:
@@ -106,5 +106,5 @@ main.o: \
 /opt/devkitpro/portlibs/switch/include/SDL2/SDL.h:
 /opt/devkitpro/portlibs/switch/include/SDL2/SDL_mixer.h:
 /opt/devkitpro/portlibs/switch/include/SDL2/SDL_ttf.h:
-/hdd/sysmlinks/Documents/Projects/Cpp/WheelOfIsaac-NX/include/Constants.hpp:
+/hdd/sysmlinks/Documents/Projects/Cpp/WheelOfIsaac-NX/include/Global.hpp:
 /hdd/sysmlinks/Documents/Projects/Cpp/WheelOfIsaac-NX/include/Wheel.hpp:

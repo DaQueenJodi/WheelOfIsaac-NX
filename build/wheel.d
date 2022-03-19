@@ -50,7 +50,9 @@ wheel.o: \
  /opt/devkitpro/portlibs/switch/include/SDL2/SDL_locale.h \
  /opt/devkitpro/portlibs/switch/include/SDL2/SDL_misc.h \
  /opt/devkitpro/portlibs/switch/include/SDL2/SDL_image.h \
- /opt/devkitpro/portlibs/switch/include/SDL2/SDL.h
+ /opt/devkitpro/portlibs/switch/include/SDL2/SDL.h \
+ /hdd/sysmlinks/Documents/Projects/Cpp/WheelOfIsaac-NX/include/Global.hpp \
+ /opt/devkitpro/portlibs/switch/include/SDL2/SDL_ttf.h
 /hdd/sysmlinks/Documents/Projects/Cpp/WheelOfIsaac-NX/include/Wheel.hpp:
 /opt/devkitpro/portlibs/switch/include/SDL2/SDL.h:
 /opt/devkitpro/portlibs/switch/include/SDL2/SDL_main.h:
@@ -102,3 +104,5 @@ wheel.o: \
 /opt/devkitpro/portlibs/switch/include/SDL2/SDL_misc.h:
 /opt/devkitpro/portlibs/switch/include/SDL2/SDL_image.h:
 /opt/devkitpro/portlibs/switch/include/SDL2/SDL.h:
+/hdd/sysmlinks/Documents/Projects/Cpp/WheelOfIsaac-NX/include/Global.hpp:
+/opt/devkitpro/portlibs/switch/include/SDL2/SDL_ttf.h:

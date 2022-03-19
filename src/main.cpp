@@ -3,15 +3,19 @@
 #include <SDL_mixer.h>
 #include <SDL_ttf.h>
 #include <switch.h>
-#include "Constants.hpp"
+#include "Global.hpp"
 #include "Wheel.hpp"
 
 int main(int argv, char **argc)
 {
-    romfsInit();
-}
 
-
-void render_wheel(Wheel wheel) {
-
+    Game::Start();
+    chdir("romfs:/");
+    while (Game::running && appletMainLoop())
+    {
+        Game::PollEvents();
+        Game::Update();
+        Game::Render();
+        SDL_Delay(WAIT); // pause for a bit every loop because vsync no worky and im too lazy to find a better solution :)
+    }
 }

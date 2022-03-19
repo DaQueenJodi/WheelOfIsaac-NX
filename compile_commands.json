@@ -30,49 +30,11 @@
       "-fno-exceptions",
       "-c",
       "-o",
-      "main.o",
-      "/hdd/sysmlinks/Documents/Projects/Cpp/WheelOfIsaac-NX/src/main.cpp"
+      "Global.o",
+      "/hdd/sysmlinks/Documents/Projects/Cpp/WheelOfIsaac-NX/src/Global.cpp"
     ],
     "directory": "/hdd/sysmlinks/Documents/Projects/Cpp/WheelOfIsaac-NX/build",
-    "file": "/hdd/sysmlinks/Documents/Projects/Cpp/WheelOfIsaac-NX/src/main.cpp",
-    "output": "/hdd/sysmlinks/Documents/Projects/Cpp/WheelOfIsaac-NX/build/main.o"
-  },
-  {
-    "arguments": [
-      "/opt/devkitpro/devkitA64/bin/aarch64-none-elf-g++",
-      "-I/opt/devkitpro/portlibs/switch/include/SDL2",
-      "-I/opt/devkitpro/portlibs/switch/include",
-      "-I/opt/devkitpro/portlibs/switch/include/opus",
-      "-D__SWITCH__",
-      "-march=armv8-a",
-      "-mtune=cortex-a57",
-      "-mtp=soft",
-      "-ftls-model=local-exec",
-      "-isystem",
-      "/opt/devkitpro/libnx/include",
-      "-D_REENTRANT",
-      "-I/opt/devkitpro/portlibs/switch/include/libpng16",
-      "-Wall",
-      "-O2",
-      "-ffunction-sections",
-      "-march=armv8-a+crc+crypto",
-      "-mtune=cortex-a57",
-      "-mtp=soft",
-      "-fPIE",
-      "-I/hdd/sysmlinks/Documents/Projects/Cpp/WheelOfIsaac-NX/include",
-      "-I/opt/devkitpro/portlibs/switch/include",
-      "-I/opt/devkitpro/libnx/include",
-      "-I/hdd/sysmlinks/Documents/Projects/Cpp/WheelOfIsaac-NX/build",
-      "-D__SWITCH__",
-      "-fno-rtti",
-      "-fno-exceptions",
-      "-c",
-      "-o",
-      "wheel.o",
-      "/hdd/sysmlinks/Documents/Projects/Cpp/WheelOfIsaac-NX/src/wheel.cpp"
-    ],
-    "directory": "/hdd/sysmlinks/Documents/Projects/Cpp/WheelOfIsaac-NX/build",
-    "file": "/hdd/sysmlinks/Documents/Projects/Cpp/WheelOfIsaac-NX/src/wheel.cpp",
-    "output": "/hdd/sysmlinks/Documents/Projects/Cpp/WheelOfIsaac-NX/build/wheel.o"
+    "file": "/hdd/sysmlinks/Documents/Projects/Cpp/WheelOfIsaac-NX/src/Global.cpp",
+    "output": "/hdd/sysmlinks/Documents/Projects/Cpp/WheelOfIsaac-NX/build/Global.o"
   }
 ]
